@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>UsersBox — OSINT бот в Telegram</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --telegram-blue: #4182e4;
+      --background: #e7f0fd;
+      --text-dark: #1e2b4a;
+      --button-shadow: 0 4px 12px rgba(65, 130, 228, 0.4);
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--background);
+      color: var(--text-dark);
+      margin: 0;
+      padding: 1.5em;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      color: var(--telegram-blue);
+    }
+
+    a {
+      color: var(--telegram-blue);
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 1.2em;
+    }
+
+    code {
+      background-color: #f3f3f3;
+      padding: 0.2em 0.4em;
+      border-radius: 4px;
+    }
+
+    pre {
+      background-color: #f3f3f3;
+      padding: 1em;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin: 1em 0;
+      border: 1px solid #ccc;
+    }
+
+    blockquote {
+      background: #f9f9f9;
+      border-left: 4px solid #ccc;
+      padding: 1em;
+      margin: 1.5em 0;
+    }
+
+    .button-container {
+      text-align: center;
+      margin: 1.5em 0 2em;
+    }
+
+    .telegram-button {
+      display: inline-block;
+      background-color: var(--telegram-blue);
+      color: white;
+      padding: 1em 2em;
+      font-size: 1.2em;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: var(--button-shadow);
+      transition: transform 0.2s ease, background-color 0.3s ease;
+    }
+
+    .telegram-button:hover {
+      background-color: #3567c5;
+      transform: translateY(-2px);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1em;
+      }
+      .telegram-button {
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>UsersBox 🎭 — Телеграм-бот для расширенного OSINT</h1>
+
+  <div class="button-container">
+    <a href="/usersbox/" class="telegram-button" target="_blank" rel="noopener noreferrer">
+      🚀 Перейти в Telegram-бота
+    </a>
+  </div>
+
+  <p><strong>UsersBox</strong> — это мощный телеграм-бот, который предоставляет продвинутый пробив по разнообразным параметрам. Его цель — упростить поиск информации в публичных и слитых источниках данных.</p>
+
+  <h2>🔍 Возможности поиска</h2>
+  <p>UsersBox использует полнотекстовый движок, позволяющий искать <strong>по любым словам, в любом порядке</strong>. Поддерживаемые параметры:</p>
+  <ul>
+    <li>📱 Номер телефона</li>
+    <li>📧 Email</li>
+    <li>👤 Username</li>
+    <li>🧑‍💼 ФИО</li>
+    <li>🏠 Адрес</li>
+    <li>🌐 IP-адрес</li>
+    <li>🔗 Ссылки на соцсети и прочие профили</li>
+  </ul>
+
+  <h2>🗃️ Откуда данные?</h2>
+  <p>UsersBox агрегирует информацию из <strong>утечек, сливов и взломов баз данных</strong> различных сайтов и сервисов. Это делает его особенно ценным инструментом для OSINT-исследователей и специалистов по информационной безопасности.</p>
+
+  <p>💡 Список используемых баз можно получить прямо в боте через команду:</p>
+  <pre><code>/about</code></pre>
+
+  <img src="/images/usersboxbot.webp" alt="Скриншот UsersBox">
+
+  <blockquote>
+    <strong>Disclaimer:</strong> Все данные берутся из открытых или слитых источников. Использование бота должно соответствовать законодательству вашей страны.
+  </blockquote>
+
+</body>
+</html>

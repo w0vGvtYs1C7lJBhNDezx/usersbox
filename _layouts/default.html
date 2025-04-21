@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Usersbox — тг бот для сбора информации о человеке.</title>
+<meta name="keywords" content="Юзерс Бокс, боты, тг, телеграм, пробив, найти, узнать, номер, телефона, человек, пробив номера, поиск информации, телефон, ФИО, проверка номера, проверка email, поиск социальных сетей, Telegram бот, ГИБДД, геолокация по номеру телефона, userbox, usersbox, юзербокс, users box, user box, userbox bot, usersboxbot, юзер бокс, userbox telegram, юсербокс">
+<meta name="description" content="Ищите информацию быстро и анонимно с UsersBox🎭 — ботом для пробива номеров, данных и многого другого. Проверьте номер телефона, автомобиля или проведите поиск по человеку в Telegram. Безоплатные боты, пробив по базам данных, геолокации и многое другое. Без регистрации, безопасно, а также возможность оплаты криптовалютой. Получите доступ к широкому спектру функций без лишних хлопот.">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
+<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' | replace:'/','' }}">
+		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
+	        <script>
+				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+				ga('create', '{{ site.google_analytics_key }}', 'auto');
+				ga('send', 'pageview');
+			</script>
+		{% endif %}
+	</head>
+	<body>
+		<header>
+			
+		</header>
+		{{ content }}
+		<footer>
+			<div class="container">
+				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
+				
+				<p class="copyright">&copy; {{ site.time | date: '%Y' }} • <a href="#">Terms</a> &amp; <a href="#">Privacy</a> • <a href="">UsersBox</a></p>
+			</div>
+		</footer>
+		<script>
+			document.getElementById("open-nav").onclick = function () {
+				document.body.classList.toggle("nav-open");
+				return false;
+			};
+		</script>
+	</body>
+</html>
