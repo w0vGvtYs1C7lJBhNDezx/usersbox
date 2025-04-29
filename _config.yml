@@ -22,9 +22,8 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Usersbox Template
-  links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+  name: Usersbox
+  links: - https://usersbox.co
 
 # -----
 # Build
