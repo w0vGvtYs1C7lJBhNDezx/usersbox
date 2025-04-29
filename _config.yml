@@ -16,14 +16,14 @@ disqus_shortname:
 
 # 
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: Актуальная ссылка на тг бот UsersBox
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
   name: Usersbox
-  links: - https://usersbox.co
+  links: https://usersbox.co
 
 # -----
 # Build
