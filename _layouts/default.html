@@ -29,11 +29,15 @@
 				<p class="copyright">&copy; {{ site.time | date: '%Y' }} • <a href="#">Terms</a> &amp; <a href="#">Privacy</a> • <a href="">UsersBox</a></p>
 			</div>
 		</footer>
-		<script>
-			document.getElementById("open-nav").onclick = function () {
-				document.body.classList.toggle("nav-open");
-				return false;
-			};
-		</script>
+<script>
+    document.addEventListener('contextmenu', e => e.preventDefault());
+    document.addEventListener('copy', e => e.preventDefault());
+    document.addEventListener('cut', e => e.preventDefault());
+    document.addEventListener('keydown', e => {
+      if ((e.ctrlKey || e.metaKey) && (['c', 'x', 'a'].includes(e.key.toLowerCase()))) {
+        e.preventDefault();
+      }
+    });
+</script>
 	</body>
 </html>
